@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, Image, StyleSheet } from 'react-native'
-import logo from '../assets/logo.png'
+import logo from '../assets/img/logo.png'
 
 export default function Splashscreen({ navigation }){
 
@@ -8,7 +8,7 @@ export default function Splashscreen({ navigation }){
         navigation.navigate('Login')
     }
 
-    setTimeout(() => {handleLogin({timePassed: true})}, 1000)
+    setTimeout(() => { handleLogin({timePassed: true}) }, 1000)
 
     return(
     <View style={style.container}>

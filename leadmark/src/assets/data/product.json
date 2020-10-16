@@ -1,0 +1,304 @@
+{
+    "status": "success",
+    "horario": "2020-10-08 11:45:12",
+    "lead": [
+        {
+            "id": 221729,
+            "id_user": 0,
+            "id_regra": 0,
+            "id_corretora": null,
+            "id_segmento": 1,
+            "id_tipo": 2,
+            "id_status": 1,
+            "id_produto": 4,
+            "bitrix_id": null,
+            "id_origem": 6,
+            "vidas": 2,
+            "leilao": 1,
+            "nome": "Jef***********************",
+            "email": "",
+            "email_valido": 0,
+            "cpf_cnpj": "22.***.***\/****-**",
+            "nome_empresa": "",
+            "valor_compra": "19.15",
+            "valor_original": "0.00",
+            "valor_venda": "0.00",
+            "valor_sem_desconto": "39.90",
+            "valor_desconto": "20.75",
+            "percentual_desconto": "43.00",
+            "percentual_depreciacao": "9.00",
+            "cadastro_finalizado": 1,
+            "premium": 0,
+            "observacao": "",
+            "notificacao": 0,
+            "data_compra": null,
+            "data_distribuicao": null,
+            "created_at": "2020-10-06 23:59:20",
+            "updated_at": "2020-10-08 00:00:03",
+            "valor_compra_rel": "19,15",
+            "valor_sem_desconto_real": "39,90",
+            "relacionadas": [
+                {
+                    "id": 214517,
+                    "id_user": 0,
+                    "id_corretora": null,
+                    "id_segmento": 1,
+                    "id_tipo": 1,
+                    "id_status": 1,
+                    "id_produto": 4,
+                    "id_origem": 6,
+                    "vidas": 1,
+                    "leilao": 1,
+                    "nome": "Jai***********************",
+                    "email": "",
+                    "cpf_cnpj": "",
+                    "valor_compra": "7.52",
+                    "premium": 0,
+                    "created_at": "2020-09-28 22:43:27",
+                    "updated_at": "2020-10-02 20:05:07",
+                    "nu_ddd": "73",
+                    "num_telefone": "98145-****",
+                    "whatsapp": 1,
+                    "ds_produto": "Hapvida",
+                    "tipo_descricao": "Individual",
+                    "segmento": "Plano de Sa\u00fade",
+                    "valor_compra_rel": "7,52"
+                },
+                {
+                    "id": 214811,
+                    "id_user": 0,
+                    "id_corretora": null,
+                    "id_segmento": 1,
+                    "id_tipo": 1,
+                    "id_status": 1,
+                    "id_produto": 4,
+                    "id_origem": 10,
+                    "vidas": 1,
+                    "leilao": 1,
+                    "nome": "**",
+                    "email": "",
+                    "cpf_cnpj": "",
+                    "valor_compra": "7.52",
+                    "premium": 0,
+                    "created_at": "2020-09-29 10:13:45",
+                    "updated_at": "2020-10-02 20:05:08",
+                    "nu_ddd": "73",
+                    "num_telefone": "99979-****",
+                    "whatsapp": 1,
+                    "ds_produto": "Hapvida",
+                    "tipo_descricao": "Individual",
+                    "segmento": "Plano de Sa\u00fade",
+                    "valor_compra_rel": "7,52"
+                },
+                {
+                    "id": 214969,
+                    "id_user": 0,
+                    "id_corretora": null,
+                    "id_segmento": 1,
+                    "id_tipo": 1,
+                    "id_status": 1,
+                    "id_produto": 4,
+                    "id_origem": 3,
+                    "vidas": 1,
+                    "leilao": 1,
+                    "nome": "Jhe*******",
+                    "email": "agu*********@***********",
+                    "cpf_cnpj": "",
+                    "valor_compra": "7.52",
+                    "premium": 0,
+                    "created_at": "2020-09-29 13:04:11",
+                    "updated_at": "2020-10-02 20:05:08",
+                    "nu_ddd": "73",
+                    "num_telefone": "98820-****",
+                    "whatsapp": 0,
+                    "ds_produto": "Hapvida",
+                    "tipo_descricao": "Individual",
+                    "segmento": "Plano de Sa\u00fade",
+                    "valor_compra_rel": "7,52"
+                }
+            ],
+            "data_aquisicao": false,
+            "tipo": {
+                "id": 2,
+                "descricao": "Empresarial"
+            },
+            "produto": {
+                "id": 4,
+                "ds_produto": "Hapvida"
+            },
+            "segmento": {
+                "id": 1,
+                "nome": "Plano de Sa\u00fade"
+            },
+            "ddds": [
+                {
+                    "id": 8,
+                    "id_uf": 6,
+                    "nu_ddd": "73",
+                    "created_at": null,
+                    "updated_at": null,
+                    "uf": "BA",
+                    "localidade": "Sul da Bahia",
+                    "estado": "Bahia",
+                    "regiao": "Sul da Bahia",
+                    "pivot": {
+                        "id_lead": 221729,
+                        "id_ddd": 8
+                    }
+                }
+            ],
+            "telefones": [
+                {
+                    "id": 225016,
+                    "id_lead": 221729,
+                    "id_ddd": 8,
+                    "num_telefone": "99983-****",
+                    "whatsapp": 1,
+                    "created_at": "2020-10-06 23:59:20",
+                    "updated_at": "2020-10-06 23:59:20",
+                    "ddd": {
+                        "id": 8,
+                        "id_uf": 6,
+                        "nu_ddd": "73",
+                        "created_at": null,
+                        "updated_at": null,
+                        "uf": "BA",
+                        "localidade": "Sul da Bahia",
+                        "estado": "Bahia",
+                        "regiao": "Sul da Bahia"
+                    }
+                }
+            ],
+            "dados_empresariais": {
+                "id": 3934,
+                "id_lead": 221729,
+                "nome_empresa": "",
+                "data_situacao": "16\/07\/2015",
+                "complemento": "ANDAR 1",
+                "tipo": "MATRIZ",
+                "nome": "JEF*****************",
+                "email": "jba.engenharia.comercial@gmail.com",
+                "situacao": "ATIVA",
+                "bairro": "PER*****",
+                "logradouro": "VIL*******",
+                "numero": "34",
+                "cep": "40.340-045",
+                "municipio": "SALVADOR",
+                "fantasia": "J.B.A. ENGENHARIA PRESTADORA DE SERVICOS",
+                "porte": "MICRO EMPRESA",
+                "abertura": "16\/07\/2015",
+                "natureza_juridica": "213*****************",
+                "uf": "BA",
+                "telefone": "(71) -*********",
+                "cnpj": "22.***************",
+                "ultima_atualizacao": "2020-07-04T23:59:59.000Z",
+                "status": "OK",
+                "efr": "",
+                "motivo_situacao": "",
+                "situacao_especial": "",
+                "data_situacao_especial": "",
+                "capital_social": "10000.00",
+                "created_at": "2020-10-07 00:00:11",
+                "updated_at": "2020-10-07 00:00:11"
+            },
+            "logs": [
+                {
+                    "id": 1571739,
+                    "id_lead": 221729,
+                    "id_tipo": 11,
+                    "descricao": "Lead em leil\u00e3o",
+                    "created_at": "2020-10-07 00:01:10",
+                    "updated_at": "2020-10-07 00:01:10",
+                    "reintegrada": null
+                }
+            ],
+            "lead_dados": [
+                {
+                    "id": 102092,
+                    "id_lead": 221729,
+                    "cooparticipacao": "Sem Cooparticipacao",
+                    "reembolso": "nao",
+                    "acomodacao": "Apartamento",
+                    "cobertura": "Estadual",
+                    "idade": 0,
+                    "created_at": "2020-10-06 23:59:20",
+                    "updated_at": "2020-10-07 00:01:10"
+                }
+            ],
+            "faixas": [],
+            "dependentes": [
+                {
+                    "id": 104935,
+                    "id_lead": 221729,
+                    "dependente": "titular",
+                    "idade": "",
+                    "created_at": "2020-10-07 00:00:01",
+                    "updated_at": "2020-10-07 00:00:01"
+                },
+                {
+                    "id": 104936,
+                    "id_lead": 221729,
+                    "dependente": "dependente 1",
+                    "idade": "**",
+                    "created_at": "2020-10-07 00:00:01",
+                    "updated_at": "2020-10-07 00:00:01"
+                },
+                {
+                    "id": 104937,
+                    "id_lead": 221729,
+                    "dependente": "dependente 2",
+                    "idade": "",
+                    "created_at": "2020-10-07 00:00:01",
+                    "updated_at": "2020-10-07 00:00:01"
+                },
+                {
+                    "id": 104938,
+                    "id_lead": 221729,
+                    "dependente": "dependente 3",
+                    "idade": "",
+                    "created_at": "2020-10-07 00:00:01",
+                    "updated_at": "2020-10-07 00:00:01"
+                },
+                {
+                    "id": 104939,
+                    "id_lead": 221729,
+                    "dependente": "dependente 4",
+                    "idade": "",
+                    "created_at": "2020-10-07 00:00:02",
+                    "updated_at": "2020-10-07 00:00:02"
+                },
+                {
+                    "id": 104940,
+                    "id_lead": 221729,
+                    "dependente": "dependente 5",
+                    "idade": "",
+                    "created_at": "2020-10-07 00:00:02",
+                    "updated_at": "2020-10-07 00:00:02"
+                }
+            ],
+            "endereco": [
+                {
+                    "id": 39247,
+                    "id_lead": 221729,
+                    "endereco": "R. Paraguai",
+                    "bairro": "Pero Vaz",
+                    "cidade": "Salvador",
+                    "estado": "Bahia",
+                    "pais": "Brasil",
+                    "cep": "40340-050",
+                    "numero": null,
+                    "complemento": null,
+                    "created_at": "2020-10-06 23:59:23",
+                    "updated_at": "2020-10-06 23:59:23"
+                }
+            ]
+        }
+    ],
+    "telefones": [
+        {
+            "ddd": "73",
+            "num": "99983-****",
+            "whatsapp": 1
+        }
+    ]
+}

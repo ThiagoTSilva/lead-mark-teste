@@ -1,26 +1,45 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Icon from 'react-native-vector-icons/EvilIcons'
 import {  View,
-          Text,
+          FlatList,
           Image, 
-          StyleSheet, 
-          TextInput , 
+          StyleSheet,  
           TouchableOpacity} from 'react-native'
-import logo from '../assets/logo-mini.png'
+import ItensList from '../components/ItensList'
 
-export default function ListProduct(){
-    return(
-        <View style={style.container}>
-            <View>
-                <Image source={logo}/>
+import logo from '../assets/img/logo-mini.png'
+import * as data from '../assets/data/list.json'
+
+export default function ListProduct({ navigation }){
+        return(
+            <View style={style.container}>
+                <View style={style.header}>
+                    <View>
+                        <Image source={logo}/>
+                    </View>
+                    <View>
+                        <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
+                            <Icon name="navicon" size={40} color="#2c2c2c" /> 
+                        </TouchableOpacity>
+                    </View>
+                </View>
+                <View>
+                    <FlatList data={data.leads} 
+                            renderItem={({item}) => <ItensList data={item}/>}/>
+                </View>
             </View>
-        </View>
-    )
+        )
 }
 
 const style = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor:'#2c2c2c',
-        padding: 30
+        backgroundColor:'#dcdcdc',
+        padding: 30,
+        
     }, 
+    header:{
+        flexDirection:'row',
+        justifyContent:'space-between'
+    },
 })

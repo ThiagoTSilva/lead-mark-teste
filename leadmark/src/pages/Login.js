@@ -7,7 +7,7 @@ import {  KeyboardAvoidingView,
           TextInput , 
           TouchableOpacity,
           Platform } from 'react-native'
-import logo from '../assets/logo.png'
+import logo from '../assets/img/logo.png'
 
 export default function Login({ navigation}){
 
