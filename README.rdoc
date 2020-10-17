@@ -7,8 +7,9 @@ comporta o menu sanduíche.
 º A tela de product foi consumido o arquivo json e incluido botões.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1 - Android => Emulador tem que esta rodando antes dos seguintes comandos 
- 1.1 - rodar yarn/npm start
- 1.2 - rodar yarn/npm react-native run-android
-2 - Ios => Basta rodar o seguinte comando que irá reconhecer o emulador do xcode ou o dispositico movel
- 2.1 - yarn react-native run-ios
+1 - yarn/npm install pra baixar o node_module
+2 - Android => Emulador tem que esta rodando antes dos seguintes comandos 
+ 2.1 - rodar yarn/npm start
+ 2.2 - rodar yarn/npm react-native run-android
+3 - Ios => Basta rodar o seguinte comando que irá reconhecer o emulador do xcode ou o dispositico movel
+ 3.1 - yarn react-native run-ios
