@@ -1,0 +1,14 @@
+º Na tela Splash screen foi incluido um temposizador e uma navegação entre tela que irá chamar a tela de login.
+º No login foi incluido inputtext como não tem requisição para uma api de validação de informações não foi feito nenhuma rotina, assim acessando diretamente,
+foi incluido KeyboardAvoidingView para adaptação ios ajustando assim a tela a subida do teclado quando os campos input for acessado.
+º Na tela de list foi incluido um flatlist pra comportar as informação em forma de card, assim foi criado um componente itensList por mode de organização e codificação
+limpa, o arquivo json foi importado para o projeto, assim consumido diretamente, foi feito um mapeamento do objeto para pegar as informações necessárias. a tela também
+comporta o menu sanduíche.
+º A tela de product foi consumido o arquivo json e incluido botões.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 - Android => Emulador tem que esta rodando antes dos seguintes comandos 
+ 1.1 - rodar yarn/npm start
+ 1.2 - rodar yarn/npm react-native run-android
+2 - Ios => Basta rodar o seguinte comando que irá reconhecer o emulador do xcode ou o dispositico movel
+ 2.1 - yarn react-native run-ios
