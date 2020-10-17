@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, Image, StyleSheet } from 'react-native'
 import logo from '../assets/img/logo.png'
+import style from '../style/Splashscreen'
 
 export default function Splashscreen({ navigation }){
 
@@ -16,13 +17,3 @@ export default function Splashscreen({ navigation }){
     </View>
     )
 }
-
-const style = StyleSheet.create({
-    container:{
-        flex: 1,
-        backgroundColor:'#2c2c2c',
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: 30
-    },
-})

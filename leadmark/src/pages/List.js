@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import Icon from 'react-native-vector-icons/EvilIcons'
 import {  View,
           FlatList,
-          Image, 
-          StyleSheet,  
+          Image,   
           TouchableOpacity} from 'react-native'
 import ItensList from '../components/ItensList'
 
 import logo from '../assets/img/logo-mini.png'
 import * as data from '../assets/data/list.json'
+import style from '../style/List'
 
 export default function ListProduct({ navigation }){
         return(
@@ -31,15 +31,3 @@ export default function ListProduct({ navigation }){
         )
 }
 
-const style = StyleSheet.create({
-    container:{
-        flex: 1,
-        backgroundColor:'#dcdcdc',
-        padding: 30,
-        
-    }, 
-    header:{
-        flexDirection:'row',
-        justifyContent:'space-between'
-    },
-})

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
+import style from '../style/ItensList'
+
 export default function ItensList({ data }) {
 
     return(
@@ -21,28 +23,3 @@ export default function ItensList({ data }) {
         </TouchableOpacity>
     )
 }
-
-const style = StyleSheet.create({
-    card:{
-        backgroundColor: "#fff",
-        marginTop:10,
-        padding: 10,
-        borderRadius: 10,
-        height: 100,
-        flexDirection: 'row'
-    },
-    icon:{
-        marginRight: 20
-    },
-    iconclock:{
-        position:"absolute",
-        marginLeft: 240,
-        marginTop: 20
-    },
-    textdescricao:{
-        fontWeight:"bold"
-    },
-    texttipodescricao:{
-        fontSize: 12
-    }
-})
