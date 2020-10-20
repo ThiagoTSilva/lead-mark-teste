@@ -11,4 +11,8 @@ export default StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between'
     },
+    icon: {
+        width: 24,
+        height: 24,
+      },
 })

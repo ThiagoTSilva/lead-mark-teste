@@ -70,6 +70,10 @@ export default StyleSheet.create({
         flexDirection: "row",  
         fontSize: 20,
         marginTop: 10
-    }
+    },
+    icon: {
+        width: 24,
+        height: 24,
+      },
 
 })
